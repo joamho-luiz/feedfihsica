@@ -43,7 +43,7 @@ for (let posiccamho in postes) {
         iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
         iframe.setAttribute('frameborder', '0')
         tihtulo.innerHTML = 'Feed Física'
-        img.src = '../../geral/imagens/curiosamente.jpg'
+        img.src = '../geral/imagens/curiosamente.jpg'
 
         // Botões
         curtir.setAttribute('onclick', 'clickCurtir()')
@@ -56,7 +56,7 @@ for (let posiccamho in postes) {
         tohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
         nome.innerHTML = '@' + canais[postes[posiccamho][1]][0]
         descrição.innerHTML = postes[posiccamho][2]
-        foto.src = '../../geral/imagens/'+ canais[postes[posiccamho][1]][2]
+        foto.src = '../geral/imagens/'+ canais[postes[posiccamho][1]][2]
         a.href = canais[postes[posiccamho][1]][3]
     
     // Hierarquização dos elementos
