@@ -1,0 +1,71 @@
+::-webkit-scrollbar {       
+    display: none;
+} 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: #000;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 12vh 86vh;
+    row-gap: 10px;
+}
+
+/* * Cabeçalho */
+header {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    width: 100vw;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    color: rgba(0, 0, 0);
+    font: 700 22px/32px 'Montserrat', sans-serif, Arial;
+}
+header p {
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    max-width: 40ch;
+    margin: 7px auto 17px auto;
+}
+
+/* * Canais */
+section {
+    overflow: auto;
+}
+section article {
+    display: grid;
+    grid-template-columns: 15vw auto;
+    margin-bottom: 20px;
+}
+section article div.foto {
+    width: 11vw;
+    height: 11vw;
+    border-radius: 10vw;
+    background-size: contain;
+    justify-self: end;
+}
+section article div.foto img {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+}
+section article div.texto {
+    align-self: center;
+    margin-left: 10px;
+}
+section article div.texto a {
+    text-decoration: none;
+    font: 700 16px/22px 'Montserrat', sans-serif, Arial;
+}
+section article div.texto p {
+    font: 400 13px/19px 'Montserrat', sans-serif, Arial;
+    letter-spacing: 0.6px;
+}

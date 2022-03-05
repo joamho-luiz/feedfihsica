@@ -1,0 +1,150 @@
+/* * Para ocultar a barra de rolagem. */ 
+/* ::-webkit-scrollbar {       
+    display: none;
+}  */
+
+/* Remover margins indesejadas */
+* {
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.98)
+}
+
+/* Saltos discretos na rolagem */
+html { 
+    scroll-snap-type: y proximity;
+}
+section {
+    scroll-snap-align: start;
+}
+
+/*  < ( ° ) >  < ( ° ) >  < ( ° ) > */
+/*          SEÇÕES DOS POSTES       */
+
+/* * Seções */
+section {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 70vw 15vw 15vw;
+    grid-template-rows: 10vh 34vh 50vh 6vh;
+}
+
+/* * Header */
+header {
+    grid-column: 1 / span 3;
+    grid-row: 1 /span 1;
+    /* background-color: rgb(255, 62, 62); */
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header p:first-child {
+    color: rgba(255, 255, 255, 0.6);
+    font: 600 20px 'Montserrat', sans-serif, Arial;
+}
+header p {
+    border-radius: 8px;
+    color: #fff;
+    font: 600 16px 'Montserrat', sans-serif, Arial;
+    padding: 2px 8px;
+}
+
+/* * Vídeo */
+iframe {
+    /* background-color: rgb(255, 252, 52); */
+    grid-column: 1 / span 3;
+    grid-row: 2 /span 1;
+    /*Para manter a proporção do YouTube*/
+    height: 56vw; 
+    max-height: 30vh;
+    max-width: 54vh;
+    width: 100vw;
+    justify-self: center;
+    align-self: center;
+}
+
+/* * Textos */
+div.textos {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    /* background-color: rgb(53, 255, 113); */
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    max-height: 45vh;
+}
+div.textos p:first-child {
+    color: rgba(255, 255, 255, 0.8);
+    font: 800 16px/28px 'Montserrat', sans-serif, Arial;
+    letter-spacing: normal;
+    margin: 15px 0 0 15px;
+}
+div.textos p {
+    margin: 0 0 30px 15px;
+    letter-spacing: 0.4px;
+}
+div.textos img {
+    height: 14px;
+    line-height: 28px;
+    margin-left: 2px;
+    width: 14px;
+}
+
+/* * Botões */
+div.botomhes {
+    grid-column: 3 / span 1;
+    /* background-color: rgb(81, 177, 255); */
+    display: grid;
+    /* grid-template-columns: 11vw;
+    grid-template-rows: 11vw 11vw 11vw 11vw; */
+    align-content: space-around;
+    /* margin-bottom: 60px; */
+    /* row-gap: 1vh; */
+    max-height: 70vw;
+}
+div.botomhes img {
+    border-radius: 16vh;
+    height: 12vw;
+    width: 12vw;
+    max-width: 9vh;
+    max-height: 9vh;
+}
+div.botomhes div.curtir{
+    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-size: contain;
+    height: 12vw;
+    width: 12vw;
+    max-width: 9vh;
+    max-height: 9vh;
+}
+div.botomhes div.comentar{
+    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-size: contain;
+    height: 12vw;
+    width: 12vw;
+    max-width: 9vh;
+    max-height: 9vh;
+}
+div.botomhes div.compartilhar{
+    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-size: contain;
+    height: 12vw;
+    width: 12vw;
+    max-width: 9vh;
+    max-height: 9vh;
+}
+
+/* * Escape do footer */
+div.nula {
+    grid-column: 1 / span 3;
+    background-color: rgba(0, 0, 0, 0.98);
+    /* background-image: linear-gradient(#00000098, #00000098 , #0009, #fff); */
+    box-shadow: 0 1.2px 1px rgba(255, 255, 255, 0.3);
+}

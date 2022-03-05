@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+} 
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(22, 24, 35);
+    background-color: rgb(255, 255, 255);
+    overscroll-behavior: contain;
+}
+
+
+
+header {
+    display: grid;
+    grid-template-columns: auto 1100px auto;
+    margin: auto;
+    height: 60px;
+    box-shadow: 0px 1px 1px hsla(231, 23%, 11%, 0.12);
+} 
+
+div.cabecca-conteuhdo {
+    max-width: 1100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    text-align: center;
+    height: 60px;
+}
+
+div.cabecca-1 {
+    align-self: center;
+    color: rgb(22, 24, 35);
+    font: 900 30px 'Lato', Arial, sans-serif;
+    
+} a {
+    color: rgb(22, 24, 35);
+    text-decoration: none;
+} span.destaque {
+    margin: auto 1.5px auto 1px;
+    text-shadow: 1.1px 1.3px 2px #fe2c55, -1.1px -1.2px 2px #25f4ee;
+}
+
+div.cabecca-2 { 
+    align-self: center;
+    background-color: #f1f1f2;
+    border-radius: 20px;
+    color: #16182390;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    padding: 13px;
+    text-align: center;
+    width: 320px;
+} 
+
+div.cabecca-3 {
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+    font: 700 16px 'Lato', Arial, sans-serif;
+    justify-content: space-between;
+    width: 220px;
+} a.cabecca-b1 {
+    align-self: center;
+    color: #161823;
+    text-decoration: none;
+} a.cabecca-b2 {
+    background-color: #fe2c55;
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px 22px;
+    text-decoration: none;
+}
+
+div.corpo-principal {
+    display: grid;
+    grid-template-columns: 330px 760px;
+    max-width: 1100px;
+    margin: auto
+}

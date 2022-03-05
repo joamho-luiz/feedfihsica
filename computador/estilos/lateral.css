@@ -1,0 +1,145 @@
+/*
+**   < : > < : > < : > < : > < : > < : > < : > < : >
+*/
+
+aside {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    padding: 28px 5px 20px 5px;
+    /* margin-right: 280px; */
+} 
+
+/*
+**   < : > < : > < : > < : > < : > < : > < : > < : >
+*/
+
+div.lateral-1 {
+    box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
+    font: 700 18px/30px 'Lato', Arial, sans-serif;
+    letter-spacing: 0.5px;
+} 
+
+div.lateral-11, div.lateral-12, div.lateral-13 {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 16px;
+}
+
+div.l11 {
+    color: #fe2c55;
+    background: #ffffff url("../../geral/imagens/ca-rosa.png") no-repeat top right;
+    background-size: contain;
+    height: 27px;
+    width: 27px;
+    padding: 14px;
+    margin-right: 12px;
+}div.l12 {
+    background: #ffffff url("../../geral/imagens/instagram-preto.png") no-repeat top right;
+    background-size: contain;
+    height: 27px;
+    width: 27px;
+    margin-right: 12px;
+}div.l13 {
+    background: #ffffff url("../../geral/imagens/twitter-preto.png") no-repeat top right;
+    background-size: contain;
+    height: 27px;
+    width: 27px;
+    margin-right: 12px;
+}
+
+p.l11 {
+    color: #fe2c55;
+}
+
+/*
+**   < : > < : > < : > < : > < : > < : > < : > < : >
+*/
+
+div.lateral-2 {
+    box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
+} p.tohpicos-titulo {
+    color: #16182394;
+    font: 700 14px 'Lato', Arial, sans-serif;
+    margin: 22px auto 18px;
+} p.tohpicos-ver-tudo {
+    color: #fe2c55;
+    font: 700 14px 'Lato', Arial, sans-serif;
+    margin: 18px auto 22px;
+} 
+
+div.tohpico {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px auto;
+} div.tohpico div.tohpico-imagem {
+    background-color: #fe2c56ee;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    border-radius: 20px;
+    height: 32px;
+    width: 32px;
+    margin-right: 12px;
+} div.tohpico p.tohpico-sub {
+    text-transform: lowercase;
+    font: 900 16px 'Lato', Arial, sans-serif;
+} div.tohpico p.tohpico-principal {
+    color: #161823bf;
+    font: auto 13px 'Lato', Arial, sans-serif;
+}
+
+/*
+**   < : > < : > < : > < : > < : > < : > < : > < : >
+*/
+
+div.lateral-3 {
+    box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
+} p.conteuhdos-titulo {
+    color: #16182394;
+    font: 700 14px 'Lato', Arial, sans-serif;
+    margin: 22px auto 18px;
+} p.conteuhdos-ver-mais {
+    color: #fe2c55;
+    font: 700 14px 'Lato', Arial, sans-serif;
+    margin: 18px auto 22px;
+} 
+
+div.conteuhdo {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px auto;
+} div.conteuhdo div.conteuhdo-imagem {
+    background-color: #fe2c56ee;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    border-radius: 20px;
+    height: 32px;
+    width: 32px;
+    margin-right: 12px;
+} div.conteuhdo p.conteuhdo-nome {
+    display: inline;
+    text-transform: lowercase;
+    font: 900 16px 'Lato', Arial, sans-serif;
+} div.conteuhdo p.conteuhdo-origem {
+    color: #161823bf;
+    font: auto 13px 'Lato', Arial, sans-serif;
+} div.conteuhdo div.conteuhdo-verificado {
+    display: inline;
+    background: #fff url("../../geral/imagens/verificado.png") no-repeat top center;
+    background-size: contain; 
+    border-radius: 9px;
+    padding: 0 6.5px 0 6.5px;
+    margin-left: 5px;
+}
+
+/*
+**   < : > < : > < : > < : > < : > < : > < : > < : >
+*/
+
+div.lateral-4 p{
+    color: #16182380;
+    font: 700 12px/28px 'Lato', Arial, sans-serif;
+    letter-spacing: 0.6px;
+    margin: 21px auto;
+}

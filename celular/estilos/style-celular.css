@@ -1,0 +1,26 @@
+/* * Footer */
+section#footer {
+    align-items: center;
+    background-color: #000;
+    bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 6vh;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+}
+section#footer div {
+    background-size: contain;
+    height: 4vh;
+    width: 4vh;
+}
+section#footer div.btn-canais {
+    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+}
+section#footer div.btn-foco {
+    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+}
+section#footer div.btn-tohpicos {
+    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+}

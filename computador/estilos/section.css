@@ -1,0 +1,93 @@
+section {
+    margin-left: 90px;
+}
+
+article.artigo {
+    box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+    padding: 20px auto;
+    margin-top: 45px;
+}
+
+/* < : > < : > < : > < : > < : > < : > < : > < : > */
+
+.artigo-imagem {
+    background-size: contain;
+    border-radius: 26px;
+    height: 53px;
+    width: 56px;
+}
+
+/* < : > < : > < : > < : > < : > < : > < : > < : > */
+
+.artigo-conteuhdo {
+    line-height: 22px;
+    margin-left: 12px;
+    width: 640px;
+}
+.artigo-seguir {
+    border: 1px solid #fe2c55;
+    border-radius: 4px;
+    color: #fe2c55;
+    float: right;
+    font: 700 16px 'Lato', Arial, sans-serif;
+    padding: 2px 16px;
+}
+.artigo-nome {
+    display: inline;
+    font: 700 18px 'Lato', Arial, sans-serif;
+    text-transform: lowercase;
+} .artigo-tohpico {
+    background-color: #fe2c55aa;
+    display: inline;
+    border-radius: 16px;
+    font: 400 14px 'Lato', Arial, sans-serif;
+    margin-left: 6px;
+    padding: 0.8px 8px 1.5px 8px;
+} .artigo-descriccamho {
+    font: 400 15px/25px 'Lato', Arial, sans-serif;
+    width: 540px;   /* De acordo com o tamanho do vídeo*/
+}
+
+/* < : > < : > < : > < : > < : > < : > < : > < : > */
+.artigo-espacco-vihdeo {
+    display: flex;
+    /* Vídeo vertical */
+    /* flex-flow: row nowrap;    */
+    /*Vídeo horizontal*/
+    flex-flow: column nowrap;  
+}
+.artigo-vihdeo {
+    background-color: rgb(190, 111, 87);
+} 
+.artigo-botomhes {
+    display: flex;
+    /* Vídeo Vertical */
+    /* flex-flow: column nowrap;  */
+    /* justify-content: flex-end; */
+    /* Vídeo Horizontal */
+    flex-flow: row nowrap;
+} .artigo-b1 {
+    background:  rgba(22, 24, 35, 0.06) url("../../geral/imagens/curtir-preto.png") no-repeat center 14px;
+    background-size: 22px 22px; 
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    margin: 15px
+} .artigo-b2 {
+    background:  rgba(22, 24, 35, 0.06) url("../../geral/imagens/comentahrio.png") no-repeat center ;
+    background-size: 22px 22px; 
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    margin: 15px;
+} .artigo-b3 {
+    background:  rgba(22, 24, 35, 0.06) url("../../geral/imagens/compartilhar.png") no-repeat center 10.5px;
+    background-size: 22px 22px; 
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    margin: 15px;
+}
