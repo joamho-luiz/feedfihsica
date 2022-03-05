@@ -35,7 +35,7 @@ for (let posiccamho in postes) {
     artigoB3.className = 'artigo-b3'
 
     // Outros atributos
-    artigoImagem.style.backgroundImage = "url(\"../../geral/imagens/" + canais[postes[posiccamho][1]][2] + "\")"
+    artigoImagem.style.backgroundImage = "url('../geral/imagens/" + canais[postes[posiccamho][1]][2] + "')"
     artigoSeguir.innerHTML = "Seguir"
     artigoNome.innerHTML = '@' + canais[postes[posiccamho][1]][0]
     artigoTohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
