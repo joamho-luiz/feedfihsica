@@ -52,7 +52,7 @@ export var canais = [     // NOME    ORIGEM      IMAGEM      ENDEREÇO
     ['Universo Narrado', 'YouTube', 'universo-narrado.jpg', 'https://www.youtube.com/c/UniversoNarrado'],
     ['Pura Física', 'YouTube', 'pura-fihsica.jpg', 'https://www.youtube.com/c/PuraF%C3%ADsica'],
     ['Canal Nostalgia', 'YouTube', 'canal-nostalgia.jpg', 'https://www.youtube.com/nostalgia'],
-    ['Kurzgesagt – In a Nutshell', 'YouTube', 'kurzgesagt-in-a nutshell.jpg', 'https://www.youtube.com/c/inanutshell'],
+    ['Kurzgesagt – In a Nutshell', 'YouTube', 'kurzgesagt-in-a-nutshell.jpg', 'https://www.youtube.com/c/inanutshell'],
     ['Nerdologia', 'YouTube', 'nerdologia.jpg', 'https://www.youtube.com/c/nerdologia'],
     ['Ponto em Comum', 'YouTube', 'ponto-em-comum.jpg', 'https://www.youtube.com/c/PontoemComumcomMigueleosHugobertos'],
     ['CuriosaMente', 'YouTube', 'curiosamente.jpg', 'https://www.youtube.com/c/curiosamente'],
