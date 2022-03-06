@@ -1,4 +1,6 @@
 // Funções
+screen.orientation.lock('portrait')
+
 function clickCurtir(){
     alert('indisponível')
 }
