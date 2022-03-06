@@ -15,7 +15,6 @@ aside {
 
 div.lateral-1 {
     box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
-    font: 700 18px/30px 'Lato', Arial, sans-serif;
     letter-spacing: 0.5px;
 } 
 
@@ -47,6 +46,11 @@ div.l11 {
     margin-right: 12px;
 }
 
+p.l11, p.l12, p.l13 {
+    font-size: 16px;
+    font-weight: 600;
+    align-self: center;
+}
 p.l11 {
     color: #fe2c55;
 }
@@ -57,20 +61,24 @@ p.l11 {
 
 div.lateral-2 {
     box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
+    /* height: 40vh;
+    overflow: auto; */
 } p.tohpicos-titulo {
     color: #16182394;
-    font: 700 14px 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     margin: 22px auto 18px;
 } p.tohpicos-ver-tudo {
     color: #fe2c55;
-    font: 700 14px 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     margin: 18px auto 22px;
 } 
 
 div.tohpico {
     display: flex;
     flex-flow: row nowrap;
-    margin: 10px auto;
+    margin: 15px auto;
 } div.tohpico div.tohpico-imagem {
     background-color: #fe2c56ee;
     background-repeat: no-repeat;
@@ -79,13 +87,17 @@ div.tohpico {
     border-radius: 20px;
     height: 32px;
     width: 32px;
+    min-width: 32px;
     margin-right: 12px;
+    opacity: 0.65;
+    z-index: -1;
 } div.tohpico p.tohpico-sub {
     text-transform: lowercase;
-    font: 900 16px 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 } div.tohpico p.tohpico-principal {
     color: #161823bf;
-    font: auto 13px 'Lato', Arial, sans-serif;
+    font-size: 12px;
 }
 
 /*
@@ -96,18 +108,20 @@ div.lateral-3 {
     box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
 } p.conteuhdos-titulo {
     color: #16182394;
-    font: 700 14px 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     margin: 22px auto 18px;
 } p.conteuhdos-ver-mais {
     color: #fe2c55;
-    font: 700 14px 'Lato', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     margin: 18px auto 22px;
 } 
 
 div.conteuhdo {
     display: flex;
     flex-flow: row nowrap;
-    margin: 10px auto;
+    margin: 15px auto;
 } div.conteuhdo div.conteuhdo-imagem {
     background-color: #fe2c56ee;
     background-repeat: no-repeat;
@@ -120,10 +134,11 @@ div.conteuhdo {
 } div.conteuhdo p.conteuhdo-nome {
     display: inline;
     text-transform: lowercase;
-    font: 900 16px 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 } div.conteuhdo p.conteuhdo-origem {
     color: #161823bf;
-    font: auto 13px 'Lato', Arial, sans-serif;
+    font-size: 12px;
 } div.conteuhdo div.conteuhdo-verificado {
     display: inline;
     background: #fff url("../../geral/imagens/verificado.png") no-repeat top center;
@@ -139,7 +154,9 @@ div.conteuhdo {
 
 div.lateral-4 p{
     color: #16182380;
-    font: 700 12px/28px 'Lato', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
     letter-spacing: 0.6px;
     margin: 21px auto;
 }

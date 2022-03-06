@@ -32,22 +32,25 @@ article.artigo {
     border-radius: 4px;
     color: #fe2c55;
     float: right;
-    font: 700 16px 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     padding: 2px 16px;
 }
 .artigo-nome {
     display: inline;
-    font: 700 18px 'Lato', Arial, sans-serif;
+    /* font: 700 18px 'Lato', Arial, sans-serif; */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
     text-transform: lowercase;
 } .artigo-tohpico {
-    background-color: #fe2c55aa;
+    /* background-color: #fe2c55aa; */
     display: inline;
     border-radius: 16px;
-    font: 400 14px 'Lato', Arial, sans-serif;
     margin-left: 6px;
     padding: 0.8px 8px 1.5px 8px;
 } .artigo-descriccamho {
-    font: 400 15px/25px 'Lato', Arial, sans-serif;
+    line-height: 25px;
     width: 540px;   /* De acordo com o tamanho do vídeo*/
 }
 
@@ -60,7 +63,8 @@ article.artigo {
     flex-flow: column nowrap;  
 }
 .artigo-vihdeo {
-    background-color: rgb(190, 111, 87);
+    width: 560px;
+    height: 315px;
 } 
 .artigo-botomhes {
     display: flex;

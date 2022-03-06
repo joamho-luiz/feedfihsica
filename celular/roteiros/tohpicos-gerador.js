@@ -1,29 +1,31 @@
 // Variáveis vindas de dados
 import {tohpicos} from '../../geral/dados/dados.js'
 
-var vetorAtual = 0
-
-function gerarTohpico() {
-    // Criação dos elementos    
-    var article = document.createElement('article')
+function gerarTohpico(principal) {
     var h3 = document.createElement('h3')
+    h3.innerHTML = principal
     var div = document.createElement('div')
 
-    // Atributos
-    h3.innerHTML = tohpicos[vetorAtual][1]
-
-    // Parágrafos
-    if (tohpicos[vetorAtual][1] == 'Iniciação à Física') {
-        var p1 = document.createElement('p')
-        p1.innerHTML = tohpicos[vetorAtual][1]
-        div.appendChild(p1)
-        vetorAtual + 1
+    for (let posiccamho in tohpicos) {
+        if (tohpicos[posiccamho][1] == principal) {
+            var p = document.createElement('p')
+            p.innerHTML = tohpicos[posiccamho][0]
+            div.appendChild(p)
+            h3.style.backgroundColor = tohpicos[posiccamho][2]
+        }
     }
 
-    // Hierarquização dos elementos
     article.appendChild(h3)
     article.appendChild(div)
-
-    // Adição da seção
-    document.querySelector('#tohpicos').appendChild(article)
 }
+
+var article = document.createElement('article')
+
+gerarTohpico('Iniciação à Física')
+gerarTohpico('Dinâmica')
+gerarTohpico('Cinemática')
+gerarTohpico('Gravitação Universal')
+gerarTohpico('Estática')
+gerarTohpico('Leis de Conservação')
+
+document.querySelector('#tohpicos').appendChild(article)

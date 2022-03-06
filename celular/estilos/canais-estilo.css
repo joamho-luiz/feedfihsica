@@ -43,6 +43,9 @@ section article {
     grid-template-columns: 15vw auto;
     margin-bottom: 20px;
 }
+section article:last-child {
+    margin-bottom: 6vh;
+}
 section article div.foto {
     width: 11vw;
     height: 11vw;

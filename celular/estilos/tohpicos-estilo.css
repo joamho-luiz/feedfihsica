@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin-bottom: 8vh;
+}
+
+header {
+    background-color: #fff;
+    display: grid;
+    height: 10vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    grid-row: 6vh 4vh;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #000a;
+}
+header h1 {
+    font: 700 22px/32px 'Montserrat', sans-serif, Arial;
+}
+header div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-self: end;
+}
+header div h2:first-child {
+    padding: 0 20px 7px 20px;
+    border-bottom: 2px solid #000;
+}
+header div h2:last-child {
+    padding: 0 20px 7px 20px;
+    border-bottom: 2px solid #000;
+}
+
+/* * TÓPICOS */
+
+section#tohpicos {
+    /* display: none; */
+    margin-left: 15px;
+    margin-top: 12vh;
+}
+section#tohpicos h3 {
+    display: inline;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font: 700 14px/20px 'Montserrat', sans-serif, Arial;
+}
+section#tohpicos div {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+section#tohpicos div p {
+    margin-top: 15px;
+    line-height: 18px;
+}
+
+/* * SOBRE */
+
+section#sobre{
+    display: none;
+    margin-top: 10vh;
+    padding: 20px 40px 20px 40px;
+}
+section#sobre p {
+    line-height: 28px;
+    margin: 20px auto;
+}

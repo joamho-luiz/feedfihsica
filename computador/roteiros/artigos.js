@@ -13,7 +13,7 @@ for (let posiccamho in postes) {
     var artigoTohpico = document.createElement('p')
     var artigoDescriccamho = document.createElement('p')
     var artigoEspaccoVihdeo = document.createElement('div')
-    var artigoVihdeo = document.createElement('video')
+    var artigoVihdeo = document.createElement('iframe')
     var artigoBotomhes = document.createElement('div')
     var artigoB1 = document.createElement('div')
     var artigoB2 = document.createElement('div')
@@ -37,9 +37,16 @@ for (let posiccamho in postes) {
     // Outros atributos
     artigoImagem.style.backgroundImage = "url('../geral/imagens/" + canais[postes[posiccamho][1]][2] + "')"
     artigoSeguir.innerHTML = "Seguir"
-    artigoNome.innerHTML = '@' + canais[postes[posiccamho][1]][0]
+    artigoNome.innerHTML = canais[postes[posiccamho][1]][0]
     artigoTohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
     artigoDescriccamho.innerHTML = postes[posiccamho][2]
+    artigoTohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
+
+    // Iframe
+        // iframe.setAttribute('allowfullscreen')
+        artigoVihdeo.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
+        artigoVihdeo.setAttribute('frameborder', '0')
+        artigoVihdeo.src = postes[posiccamho][3]
    
     // Hierarquização dos elementos
     artigoBotomhes.appendChild(artigoB1)

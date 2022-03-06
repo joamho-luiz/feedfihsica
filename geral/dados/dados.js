@@ -26,7 +26,7 @@ export var tohpicos = [     // SUBTÓPICO    TÓPICO      COR
     ['Momento de uma força (Torque)', 'Estática', '#586994'],
     ['Equilíbrio de um ponto material', 'Estática', '#586994'],
     ['Equilíbrio de um corpo rígido', 'Estática', '#586994'],
-    ['Alavancas', 'Estática', '', ''],
+    ['Alavancas', 'Estática', '#586994'],
 
     ['Trabalho e Potência', 'Leis de Conservação', '#7a3b69'],
     ['Energia Mecânica', 'Leis de Conservação', '#7a3b69'],
