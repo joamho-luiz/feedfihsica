@@ -80,6 +80,3 @@ for (let posiccamho in postes) {
     // Adição da seção
     document.querySelector('#bd').appendChild(section)
 }
-
-
-document.requestFullscreen()

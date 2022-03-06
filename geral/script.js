@@ -1,5 +1,8 @@
 // Funções
-screen.orientation.lock('portrait')
+window.onload = function() {
+    init();
+    screen.orientation.lock('portrait')
+};
 
 function clickCurtir(){
     alert('indisponível')
