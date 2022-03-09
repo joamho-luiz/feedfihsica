@@ -43,7 +43,7 @@ for (let posiccamho in postes) {
         iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
         iframe.setAttribute('frameborder', '0')
         tihtulo.innerHTML = 'Feed Física'
-        img.src = '../geral/imagens/curiosamente.jpg'
+        img.src = '../geral/imagens/verificado.png'
 
         // Botões
         curtir.setAttribute('onclick', 'clickCurtir()')

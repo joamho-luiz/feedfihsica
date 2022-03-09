@@ -17,11 +17,11 @@ section#footer div {
     width: 4vh;
 }
 section#footer div.btn-canais {
-    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-image: url("../../geral/imagens/canais.png");
 }
 section#footer div.btn-foco {
-    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-image: url("../../geral/imagens/inihcio.png");
 }
 section#footer div.btn-tohpicos {
-    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-image: url("../../geral/imagens/lista.png");
 }

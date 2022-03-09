@@ -117,7 +117,7 @@ div.botomhes img {
     max-height: 9vh;
 }
 div.botomhes div.curtir{
-    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-image: url("../../geral/imagens/curtir-cinza.png");
     background-size: contain;
     height: 12vw;
     width: 12vw;
@@ -125,7 +125,7 @@ div.botomhes div.curtir{
     max-height: 9vh;
 }
 div.botomhes div.comentar{
-    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-image: url("../../geral/imagens/comentahrio-cinza.png");
     background-size: contain;
     height: 12vw;
     width: 12vw;
@@ -133,7 +133,7 @@ div.botomhes div.comentar{
     max-height: 9vh;
 }
 div.botomhes div.compartilhar{
-    background-image: url("../../geral/imagens/chama-o-fihsico.jpg");
+    background-image: url("../../geral/imagens/compartilhar-cinza.png");
     background-size: contain;
     height: 12vw;
     width: 12vw;
