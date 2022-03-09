@@ -1,10 +1,8 @@
 window.onload = function() {
-    // init();
-    screen.orientation.lock('portrait')
+    //
 };
 
 var curtida = []
-
 function clickCurtir(origem, poste){
     if (origem == 'pc') {
         let identificador = '#artigo-b1' + poste
@@ -47,8 +45,4 @@ function compartilharPahgina() {
 
 function clickIndisponihvel(){
     alert('Está função está temporariamente indisponível :(')
-}
-
-function clickFoco() {
-    alert('indisponível')
 }
