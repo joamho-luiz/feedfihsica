@@ -45,7 +45,7 @@ for (let posiccamho in postes) {
     // Iframe
         artigoVihdeo.setAttribute('frameborder', '0')
         artigoVihdeo.setAttribute('allow', 'fullscreen')
-        artigoVihdeo.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=1&fs=1&modestbranding=1&rel=0&showinfo=0'
+        artigoVihdeo.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0'
    
     // Hierarquização dos elementos
     artigoBotomhes.appendChild(artigoB1)
