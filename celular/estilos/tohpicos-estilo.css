@@ -42,7 +42,7 @@ header div h2:last-child {
 /* * TÓPICOS */
 
 section#tohpicos {
-    /* display: none; */
+    /* display: auto; */
     margin-left: 15px;
     margin-top: 12vh;
 }

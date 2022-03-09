@@ -46,3 +46,13 @@ function compartilharPahgina() {
 function clickIndisponihvel(){
     alert('Está função está temporariamente indisponível :(')
 }
+
+function mudarFoco(foco){
+    if (foco == 'sobre') {
+        document.querySelector('#sobre').style.display = 'block'
+        document.querySelector('#tohpicos').style.display = 'none'
+    } else if (foco == 'tohpico') {
+        document.querySelector('#tohpicos').style.display = 'block'
+        document.querySelector('#sobre').style.display = 'none'
+    }
+}

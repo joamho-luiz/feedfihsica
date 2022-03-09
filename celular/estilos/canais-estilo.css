@@ -21,7 +21,8 @@ header {
     justify-self: center;
     text-align: center;
     width: 100vw;
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #000a;
+    /* box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); */
 }
 header h1 {
     color: rgba(0, 0, 0);
