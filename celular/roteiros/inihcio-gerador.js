@@ -41,21 +41,18 @@ for (let posiccamho in postes) {
     // Outros atributos
 
         // Iframe
-        // iframe.setAttribute('allowfullscreen')
-        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
         iframe.setAttribute('frameborder', '0')
-        tihtulo.innerHTML = 'Feed Física'
-        img.src = '../geral/imagens/verificado.png'
+        iframe.setAttribute('allow', 'fullscreen')
+        iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0'   
 
         // Botões
         curtir.setAttribute('onclick', "clickCurtir('celular', " + posiccamho + ")")
         comentar.setAttribute('onclick', "clickIndisponihvel()")
         compartilhar.setAttribute('onclick', "clickCompartilhar('https://www.youtube.com/watch?v=" + postes[posiccamho][3] + "')")
 
-        // Dados para alguns elementos
-        artigoVihdeo.setAttribute('frameborder', '0')
-        artigoVihdeo.setAttribute('allow', 'fullscreen')
-        iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0'        
+        // Demais elementos  
+        tihtulo.innerHTML = 'Feed Física'
+        img.src = '../geral/imagens/verificado.png'
         tohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
         tohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
         nome.innerHTML = '@' + canais[postes[posiccamho][1]][0]
