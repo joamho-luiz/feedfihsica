@@ -32,12 +32,23 @@ function clickCurtir(origem, poste){
         }
     }
 }
-function clickComentar(){
-    alert('indisponível')
+
+async function clipboardCopy(enderecco) {
+    await navigator.clipboard.writeText(enderecco);
 }
-function clickCompartilhar(){
-    alert('indisponível')
+function clickCompartilhar(enderecco){
+    clipboardCopy(enderecco)
+    alert('Copiado para área de transferência!')
 }
+function compartilharPahgina() {
+    clipboardCopy('https://joamho-luiz.github.io/feedfihsica/')
+    alert('Copiado para área de transferência!')
+}
+
+function clickIndisponihvel(){
+    alert('Está função está temporariamente indisponível :(')
+}
+
 function clickFoco() {
     alert('indisponível')
 }

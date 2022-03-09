@@ -2,7 +2,7 @@ import {canais} from '../../geral/dados/dados.js'
 
 for (let posiccamho in canais) {
     // Criação dos elementos    
-    var conteuhdo = document.createElement("div")
+    var conteuhdo = document.createElement("a")
     var conteuhdoImagem = document.createElement("div")
     var conteuhdoTexto = document.createElement("div")
     var conteuhdoNome = document.createElement("p")
@@ -21,6 +21,8 @@ for (let posiccamho in canais) {
     conteuhdoImagem.style.backgroundImage = "url('../geral/imagens/" + canais[posiccamho][2] + "')"
     conteuhdoNome.innerHTML = canais[posiccamho][0]
     conteuhdoOrigem.innerHTML = canais[posiccamho][1]
+    conteuhdo.href = canais[posiccamho][3]
+    conteuhdo.target = "_blank"
 
     // Hierarquização dos elementos
     conteuhdoTexto.appendChild(conteuhdoNome)

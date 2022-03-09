@@ -45,8 +45,9 @@ for (let posiccamho in postes) {
     artigoTohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
 
     artigoB1.setAttribute('onclick', "clickCurtir('pc', " + posiccamho + ")")
-    artigoB2.setAttribute('onclick', "clickComentar()")
-    artigoB3.setAttribute('onclick', "clickCompartilhar()")
+    artigoB2.setAttribute('onclick', "clickIndisponihvel()")
+    artigoB3.setAttribute('onclick', "clickCompartilhar('https://www.youtube.com/watch?v=" + postes[posiccamho][3] + "')")
+    artigoSeguir.setAttribute('onclick', "clickIndisponihvel()")
 
     // Iframe
         artigoVihdeo.setAttribute('frameborder', '0')

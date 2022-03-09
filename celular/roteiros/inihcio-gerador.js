@@ -49,8 +49,8 @@ for (let posiccamho in postes) {
 
         // Botões
         curtir.setAttribute('onclick', "clickCurtir('celular', " + posiccamho + ")")
-        comentar.setAttribute('onclick', "clickComentar()")
-        compartilhar.setAttribute('onclick', "clickCompartilhar()")
+        comentar.setAttribute('onclick', "clickIndisponihvel()")
+        compartilhar.setAttribute('onclick', "clickCompartilhar('https://www.youtube.com/watch?v=" + postes[posiccamho][3] + "')")
 
         // Dados para alguns elementos
         artigoVihdeo.setAttribute('frameborder', '0')
