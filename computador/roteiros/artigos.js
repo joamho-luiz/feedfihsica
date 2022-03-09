@@ -43,10 +43,9 @@ for (let posiccamho in postes) {
     artigoTohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
 
     // Iframe
-        // iframe.setAttribute('allowfullscreen')
-        artigoVihdeo.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture')
         artigoVihdeo.setAttribute('frameborder', '0')
-        artigoVihdeo.src = postes[posiccamho][3]
+        artigoVihdeo.setAttribute('allow', 'fullscreen')
+        artigoVihdeo.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=1&fs=1&modestbranding=1&rel=0&showinfo=0'
    
     // Hierarquização dos elementos
     artigoBotomhes.appendChild(artigoB1)

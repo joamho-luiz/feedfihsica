@@ -63,10 +63,10 @@ export var canais = [     // NOME    ORIGEM      IMAGEM      ENDEREÇO
 //   >  < + >  < + >  < + >  < + >  < + >  < + >
 //  < + >  < + >  < + >  < + >  < + >  < + >  < + >
 
-export var postes = [     //    ºTÓPICO     ºCANAL    DESCRIÇÃO     IFRAME-DO-VÍDEO       (NOME-DO-VÍDEO/LINK-DO-VÍDEO)
-    [2, 4 , 'video palestrinha', 'https://www.youtube.com/embed/M2D5-zXlD6A'],
-    [4, 13 , 'video massa', 'https://www.youtube.com/embed/Ua0dYtoi2Nc'],
-    [7, 11 , 'deseinho', 'https://www.youtube.com/embed/JyECrGp-Sw8']
+export var postes = [     //    ºTÓPICO     ºCANAL    DESCRIÇÃO     IFRAME-DO-VÍDEO       (NOME-DO-VÍDEO/LINK-DO-VÍDEO)     ~~ @?start=@&end=@&playlist=@
+    [2, 4 , 'video palestrinha', 'M2D5-zXlD6A?start=5&end=10&playlist=M2D5-zXlD6A'],
+    [4, 13 , 'video massa', 'Ua0dYtoi2Nc?start=5&end=10&playlist=Ua0dYtoi2Nc'],
+    [7, 11 , 'deseinho', 'JyECrGp-Sw8?start=5&end=10&playlist=JyECrGp-Sw8']
 ]
 
 //  < + >  < + >  < + >  < + >  < + >  < + >  < + >
