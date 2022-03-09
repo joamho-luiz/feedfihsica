@@ -51,6 +51,8 @@ for (let posiccamho in postes) {
         compartilhar.setAttribute('onclick', 'clickCompartilhar()')
 
         // Dados para alguns elementos
+        artigoVihdeo.setAttribute('frameborder', '0')
+        artigoVihdeo.setAttribute('allow', 'fullscreen')
         iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0'        
         tohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
         tohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
