@@ -36,6 +36,8 @@ for (let posiccamho in postes) {
     comentar.className = 'comentar'
     compartilhar.className = 'compartilhar'
 
+    curtir.id = 'curtir' + posiccamho
+
     // Outros atributos
 
         // Iframe
@@ -46,9 +48,9 @@ for (let posiccamho in postes) {
         img.src = '../geral/imagens/verificado.png'
 
         // Botões
-        curtir.setAttribute('onclick', 'clickCurtir()')
-        comentar.setAttribute('onclick', 'clickComentar()')
-        compartilhar.setAttribute('onclick', 'clickCompartilhar()')
+        curtir.setAttribute('onclick', "clickCurtir('celular', " + posiccamho + ")")
+        comentar.setAttribute('onclick', "clickComentar()")
+        compartilhar.setAttribute('onclick', "clickCompartilhar()")
 
         // Dados para alguns elementos
         artigoVihdeo.setAttribute('frameborder', '0')

@@ -34,6 +34,8 @@ for (let posiccamho in postes) {
     artigoB2.className = 'artigo-b2'
     artigoB3.className = 'artigo-b3'
 
+    artigoB1.id = 'artigo-b1' + posiccamho
+
     // Outros atributos
     artigoImagem.style.backgroundImage = "url('../geral/imagens/" + canais[postes[posiccamho][1]][2] + "')"
     artigoSeguir.innerHTML = "Seguir"
@@ -41,6 +43,10 @@ for (let posiccamho in postes) {
     artigoTohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
     artigoDescriccamho.innerHTML = postes[posiccamho][2]
     artigoTohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
+
+    artigoB1.setAttribute('onclick', "clickCurtir('pc', " + posiccamho + ")")
+    artigoB2.setAttribute('onclick', "clickComentar()")
+    artigoB3.setAttribute('onclick', "clickCompartilhar()")
 
     // Iframe
         artigoVihdeo.setAttribute('frameborder', '0')
