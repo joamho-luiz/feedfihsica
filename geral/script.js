@@ -1,7 +1,3 @@
-window.onload = function() {
-    //
-}
-
 window.addEventListener('orientationchange', function(){ 
     if(window.innerWidth > window.innerHeight) {
         this.alert("O coneteúdo da página está desenhado para ser consumido na vertical")
