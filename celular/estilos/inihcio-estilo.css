@@ -109,6 +109,7 @@ div.botomhes {
     /* margin-bottom: 60px; */
     /* row-gap: 1vh; */
     max-height: 70vw;
+    justify-items: center;
 }
 div.botomhes img {
     border-radius: 16vh;
@@ -120,24 +121,24 @@ div.botomhes img {
 div.botomhes div.curtir{
     background-image: url("../../geral/imagens/curtir-cinza.png");
     background-size: contain;
-    height: 12vw;
-    width: 12vw;
+    height: 9vw;
+    width: 9vw;
     max-width: 9vh;
     max-height: 9vh;
 }
 div.botomhes div.comentar{
     background-image: url("../../geral/imagens/comentahrio-cinza.png");
     background-size: contain;
-    height: 12vw;
-    width: 12vw;
+    height: 9vw;
+    width: 9vw;
     max-width: 9vh;
     max-height: 9vh;
 }
 div.botomhes div.compartilhar{
     background-image: url("../../geral/imagens/compartilhar-cinza.png");
     background-size: contain;
-    height: 12vw;
-    width: 12vw;
+    height: 9vw;
+    width: 9vw;
     max-width: 9vh;
     max-height: 9vh;
 }

@@ -67,6 +67,12 @@ export var postes = [     //    ºTÓPICO     ºCANAL    DESCRIÇÃO     IFRAME-
     [2, 4 , 'video palestrinha', 'M2D5-zXlD6A?start=5&end=10'],
     [4, 13 , 'video massa', 'Ua0dYtoi2Nc?start=5&end=10'],
     [7, 11 , 'deseinho', 'JyECrGp-Sw8?start=5&end=10']
+    [2, 4 , 'video palestrinha', 'M2D5-zXlD6A?start=5&end=10'],
+    [4, 13 , 'video massa', 'Ua0dYtoi2Nc?start=5&end=10'],
+    [7, 11 , 'deseinho', 'JyECrGp-Sw8?start=5&end=10']
+    [2, 4 , 'video palestrinha', 'M2D5-zXlD6A?start=5&end=10'],
+    [4, 13 , 'video massa', 'Ua0dYtoi2Nc?start=5&end=10'],
+    [7, 11 , 'deseinho', 'JyECrGp-Sw8?start=5&end=10']
 ]
 
 //  < + >  < + >  < + >  < + >  < + >  < + >  < + >
