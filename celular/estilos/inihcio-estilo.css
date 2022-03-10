@@ -121,6 +121,7 @@ div.botomhes img {
 div.botomhes div.curtir{
     background-image: url("../../geral/imagens/curtir-cinza.png");
     background-size: contain;
+    background-position: center;
     height: 9vw;
     width: 9vw;
     max-width: 9vh;
@@ -129,6 +130,7 @@ div.botomhes div.curtir{
 div.botomhes div.comentar{
     background-image: url("../../geral/imagens/comentahrio-cinza.png");
     background-size: contain;
+    background-position: center;
     height: 9vw;
     width: 9vw;
     max-width: 9vh;
@@ -137,6 +139,7 @@ div.botomhes div.comentar{
 div.botomhes div.compartilhar{
     background-image: url("../../geral/imagens/compartilhar-cinza.png");
     background-size: contain;
+    background-position: center;
     height: 9vw;
     width: 9vw;
     max-width: 9vh;

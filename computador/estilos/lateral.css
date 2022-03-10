@@ -7,6 +7,7 @@ aside {
     grid-template-rows: auto auto auto auto;
     padding: 28px 5px 20px 5px;
     /* margin-right: 280px; */
+    align-content: start;
 } 
 
 /*
@@ -62,8 +63,8 @@ p.l11 {
 
 div.lateral-2 {
     box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
-    /* height: 40vh;
-    overflow: auto; */
+    overflow: hidden;
+
 } p.tohpicos-titulo {
     color: #16182394;
     font-size: 14px;
@@ -107,6 +108,7 @@ div.tohpico {
 
 div.lateral-3 {
     box-shadow: -1em 0 1px white, -1px 0.5px 1px hsla(231, 23%, 11%, 0.12); /* Malandragem da sombra */
+    overflow: hidden;
 } p.conteuhdos-titulo {
     color: #16182394;
     font-size: 14px;
