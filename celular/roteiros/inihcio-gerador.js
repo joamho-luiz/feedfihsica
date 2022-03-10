@@ -3,6 +3,7 @@ import {tohpicos} from '../../geral/dados/dados.js'
 import {canais} from '../../geral/dados/dados.js'
 import {postes} from '../../geral/dados/dados.js'
 
+var primeiro = true
 for (let posiccamho in postes) {
     // Criação dos elementos    
     var section = document.createElement('section')
@@ -35,6 +36,11 @@ for (let posiccamho in postes) {
     curtir.className = 'curtir'
     comentar.className = 'comentar'
     compartilhar.className = 'compartilhar'
+    
+    if (primeiro) {
+        section.id = 'primeiro-poste'
+        primeiro = false 
+    }
 
     curtir.id = 'curtir' + posiccamho
 
