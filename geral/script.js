@@ -51,8 +51,12 @@ function mudarFoco(foco){
     if (foco == 'sobre') {
         document.querySelector('#sobre').style.display = 'block'
         document.querySelector('#tohpicos').style.display = 'none'
+        document.querySelector('.sec-sobre').style.borderBottomStyle = 'solid'
+        document.querySelector('.sec-tohpico').style.borderBottomStyle = 'none'
     } else if (foco == 'tohpico') {
         document.querySelector('#tohpicos').style.display = 'block'
         document.querySelector('#sobre').style.display = 'none'
+        document.querySelector('.sec-tohpico').style.borderBottomStyle = 'solid'
+        document.querySelector('.sec-sobre').style.borderBottomStyle = 'none'
     }
 }

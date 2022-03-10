@@ -30,13 +30,17 @@ header div {
     justify-content: space-around;
     align-self: end;
 }
-header div h2:first-child {
+header div h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+header div h2.sec-tohpico{
     padding: 0 20px 7px 20px;
     border-bottom: 2px solid #000;
 }
-header div h2:last-child {
+header div h2.sec-sobre {
     padding: 0 20px 7px 20px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px none #000;
 }
 
 /* * TÓPICOS */
