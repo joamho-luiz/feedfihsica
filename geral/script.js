@@ -1,8 +1,8 @@
-window.addEventListener('orientationchange', function(){ 
-    if(window.innerHeight > window.innerWidth ) {
-        this.alert("O coneteúdo da página está desenhado para ser consumido na vertical")
-    }
-});
+// window.addEventListener('orientationchange', function(){ 
+//     if(window.innerHeight > window.innerWidth ) {
+//         this.alert("O coneteúdo da página está desenhado para ser consumido na vertical")
+//     }
+// });
 
 var curtida = []
 function clickCurtir(origem, poste){
