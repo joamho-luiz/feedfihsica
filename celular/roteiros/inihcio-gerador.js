@@ -47,10 +47,19 @@ for (let posiccamho in postes) {
     // Outros atributos
 
         // Iframe
+        if (canais[postes[posiccamho][1]][1] == 'YouTube') {
+            iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0' 
+            section.className = 'vihdeo-horizontal'
+        } else if (canais[postes[posiccamho][1]][1] == 'Shorts') {
+            iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0' 
+            section.className = 'vihdeo-vertical'
+        } else if (canais[postes[posiccamho][1]][1] == 'TikTok') {
+            iframe.src = postes[posiccamho][3] 
+            section.className = 'vihdeo-vertical'   
+        }
         iframe.setAttribute('frameborder', '0')
         iframe.setAttribute('allow', 'fullscreen')
-        iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0'   
-
+        
         // Botões
         curtir.setAttribute('onclick', "clickCurtir('celular', " + posiccamho + ")")
         comentar.setAttribute('onclick', "clickIndisponihvel()")

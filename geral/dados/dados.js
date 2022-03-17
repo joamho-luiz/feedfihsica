@@ -52,9 +52,9 @@ export var canais = [     // NOME    ORIGEM      IMAGEM      ENDEREÇO
     ['Universo Narrado', 'YouTube', 'universo-narrado.jpg', 'https://www.youtube.com/c/UniversoNarrado'],
     ['Pura Física', 'YouTube', 'pura-fihsica.jpg', 'https://www.youtube.com/c/PuraF%C3%ADsica'],
     ['Canal Nostalgia', 'YouTube', 'canal-nostalgia.jpg', 'https://www.youtube.com/nostalgia'],
-    ['Kurzgesagt – In a Nutshell', 'YouTube', 'kurzgesagt-in-a-nutshell.jpg', 'https://www.youtube.com/c/inanutshell'],
+    ['Kurzgesagt – In a Nutshell', 'TikTok', 'kurzgesagt-in-a-nutshell.jpg', 'https://www.youtube.com/c/inanutshell'],
     ['Nerdologia', 'YouTube', 'nerdologia.jpg', 'https://www.youtube.com/c/nerdologia'],
-    ['Ponto em Comum', 'YouTube', 'ponto-em-comum.jpg', 'https://www.youtube.com/c/PontoemComumcomMigueleosHugobertos'],
+    ['Ponto em Comum', 'Shorts', 'ponto-em-comum.jpg', 'https://www.youtube.com/c/PontoemComumcomMigueleosHugobertos'],
     ['CuriosaMente', 'YouTube', 'curiosamente.jpg', 'https://www.youtube.com/c/curiosamente'],
     ['Ter', 'YouTube', 'ter.jpg', 'https://www.youtube.com/c/Tercosmicqueen']
 ]
@@ -65,14 +65,8 @@ export var canais = [     // NOME    ORIGEM      IMAGEM      ENDEREÇO
 
 export var postes = [     //    ºTÓPICO     ºCANAL    DESCRIÇÃO     IFRAME-DO-VÍDEO (NOME-DO-VÍDEO/LINK-DO-VÍDEO)     ~~ @?start=@&end=@&playlist=@
     [2, 4 , 'video palestrinha', 'M2D5-zXlD6A?start=5&end=10'],
-    [4, 13 , 'video massa', 'Ua0dYtoi2Nc?start=5&end=10'],
-    [7, 11 , 'deseinho', 'JyECrGp-Sw8?start=5&end=10'],
-    [2, 4 , 'video palestrinha', 'M2D5-zXlD6A?start=5&end=10'],
-    [4, 13 , 'video massa', 'Ua0dYtoi2Nc?start=5&end=10'],
-    [7, 11 , 'deseinho', 'JyECrGp-Sw8?start=5&end=10'],
-    [2, 4 , 'video palestrinha', 'M2D5-zXlD6A?start=5&end=10'],
-    [4, 13 , 'video massa', 'Ua0dYtoi2Nc?start=5&end=10'],
-    [7, 11 , 'deseinho', 'JyECrGp-Sw8?start=5&end=10']
+    [4, 13 , 'video massa', 'oixHF7Rg3hE?feature=share'],
+    [7, 11 , 'deseinho', 'https://v16-web.tiktok.com/video/tos/useast2a/tos-useast2a-ve-0068c003/e410745186834fe1b28f1c61eb55ab36/?a=1988&br=2938&bt=1469&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&expire=1647133320&ft=sd03~3._nz7Th1UBvDXq&l=2022031219013001018904916313856CCB&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&policy=3&qs=0&rc=M3c3NzU6ZmlvOzMzNzczM0ApODMzNmY6M2RkNzs5NDk6N2dpZ25ycjRnZmBgLS1kMTZzczY0LzYvM2AyLy5iNDIuYl46Yw%3D%3D&signature=b06f4eebcb7b32e819b8881dbb19e190&tk=7066493993433973765&vl=&vr=']
 ]
 
 //  < + >  < + >  < + >  < + >  < + >  < + >  < + >

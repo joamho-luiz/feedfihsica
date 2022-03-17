@@ -26,7 +26,14 @@ section {
 /*          SEÇÕES DOS POSTES       */
 
 /* * Seções */
-section {
+section.vihdeo-horizontal {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 70vw 15vw 15vw;
+    grid-template-rows: 10vh 34vh 50vh 6vh;
+}
+section.vihdeo-vertical {
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -44,6 +51,7 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     margin: auto 7px;
+    z-index: 100;
 }
 header p:first-child {
     color: rgba(255, 255, 255, 0.6);
@@ -57,7 +65,7 @@ header p {
 }
 
 /* * Vídeo */
-iframe {
+section.vihdeo-horizontal iframe {
     /* background-color: rgb(255, 252, 52); */
     grid-column: 1 / span 3;
     grid-row: 2 /span 1;
@@ -69,9 +77,16 @@ iframe {
     justify-self: center;
     align-self: center;
 }
+section.vihdeo-vertical iframe {
+    grid-column: 1 / span 3;
+    grid-row: 1 /span 4;
+    height: 91vh;
+    width: 100vw;
+    justify-self: center;
+}
 
 /* * Textos */
-div.textos {
+section.vihdeo-horizontal div.textos {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
     /* background-color: rgb(53, 255, 113); */
@@ -80,6 +95,12 @@ div.textos {
     flex-flow: column nowrap;
     justify-content: start;
     max-height: 45vh;
+}
+section.vihdeo-vertical div.textos {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    align-self: end;
+    margin-bottom: 50px;
 }
 div.textos p:first-child {
     color: rgba(255, 255, 255, 0.8);
@@ -99,7 +120,7 @@ div.textos img {
 }
 
 /* * Botões */
-div.botomhes {
+section.vihdeo-horizontal div.botomhes {
     grid-column: 3 / span 1;
     /* background-color: rgb(81, 177, 255); */
     display: grid;
@@ -110,6 +131,9 @@ div.botomhes {
     /* row-gap: 1vh; */
     max-height: 70vw;
     justify-items: center;
+}
+section.vihdeo-vertical div.botomhes {
+
 }
 div.botomhes img {
     border-radius: 16vh;
