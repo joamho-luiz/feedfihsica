@@ -42,7 +42,7 @@ for (let posiccamho in postes) {
     artigoNome.innerHTML = canais[postes[posiccamho][1]][0]
     artigoTohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
     artigoDescriccamho.innerHTML = postes[posiccamho][2]
-    artigoTohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
+    artigoTohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2] + 'aa'
 
     artigoB1.setAttribute('onclick', "clickCurtir('pc', " + posiccamho + ")")
     artigoB2.setAttribute('onclick', "clickIndisponihvel()")
@@ -52,7 +52,7 @@ for (let posiccamho in postes) {
     // Iframe
         artigoVihdeo.setAttribute('frameborder', '0')
         artigoVihdeo.setAttribute('allow', 'fullscreen')
-        artigoVihdeo.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0'
+        artigoVihdeo.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&fs=1&modestbranding=1&rel=0&showinfo=0'
    
     // Hierarquização dos elementos
     artigoBotomhes.appendChild(artigoB1)

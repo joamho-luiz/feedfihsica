@@ -49,7 +49,7 @@ for (let posiccamho in postes) {
         // Iframe
         iframe.setAttribute('frameborder', '0')
         iframe.setAttribute('allow', 'fullscreen')
-        iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&loop=0&fs=1&modestbranding=1&rel=0&showinfo=0'   
+        iframe.src = 'https://www.youtube.com/embed/' + postes[posiccamho][3] + '&fs=1&modestbranding=1&rel=0&showinfo=0'   
 
         // Botões
         curtir.setAttribute('onclick', "clickCurtir('celular', " + posiccamho + ")")
