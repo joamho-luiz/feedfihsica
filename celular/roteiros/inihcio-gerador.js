@@ -59,12 +59,18 @@ for (let posiccamho in postes) {
         // Demais elementos  
         tihtulo.innerHTML = 'Feed Física'
         img.src = '../geral/imagens/verificado.png'
-        tohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
         tohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2]
         nome.innerHTML = '@' + canais[postes[posiccamho][1]][0]
         descrição.innerHTML = postes[posiccamho][2]
         foto.src = '../geral/imagens/'+ canais[postes[posiccamho][1]][2]
         a.href = canais[postes[posiccamho][1]][3]
+
+        var textinho = tohpicos[postes[posiccamho][0]][0]
+        if (textinho.length > 40 ){
+            tohpico.innerHTML = textinho.slice(0,40) + '...'
+        }else{
+            tohpico.innerHTML = textinho.slice(0,40)
+    }
     
     // Hierarquização dos elementos
     section.appendChild(header)

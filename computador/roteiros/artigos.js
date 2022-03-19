@@ -40,9 +40,15 @@ for (let posiccamho in postes) {
     artigoImagem.style.backgroundImage = "url('../geral/imagens/" + canais[postes[posiccamho][1]][2] + "')"
     artigoSeguir.innerHTML = "Seguir"
     artigoNome.innerHTML = canais[postes[posiccamho][1]][0]
-    artigoTohpico.innerHTML = tohpicos[postes[posiccamho][0]][0]
     artigoDescriccamho.innerHTML = postes[posiccamho][2]
     artigoTohpico.style.backgroundColor = tohpicos[postes[posiccamho][0]][2] + 'aa'
+
+    var textinho = tohpicos[postes[posiccamho][0]][0]
+    if (textinho.length > 40 ){
+        artigoTohpico.innerHTML = textinho.slice(0,40) + '...'
+    }else{
+        artigoTohpico.innerHTML = textinho.slice(0,40)
+    }
 
     artigoB1.setAttribute('onclick', "clickCurtir('pc', " + posiccamho + ")")
     artigoB2.setAttribute('onclick', "clickIndisponihvel()")
