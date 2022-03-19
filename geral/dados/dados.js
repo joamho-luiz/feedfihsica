@@ -86,7 +86,7 @@ export var canais = [     // NOME    ORIGEM      IMAGEM      ENDEREÇO
 
 export var postes = [     //    ºTÓPICO     ºCANAL    DESCRIÇÃO     IFRAME-DO-VÍDEO (NOME-DO-VÍDEO/LINK-DO-VÍDEO)
 
-    [12, 3 , 'movimento circular rampa circular', 'cpy4V2Bk0jc?start=0&end=58'],
+    [2, 3 , 'movimento circular rampa circular', 'cpy4V2Bk0jc?start=0&end=58'],
     [26, 3 , 'conservação de momento', 'xSAnySixRjA?start=0&end=39'],
     [10, 3 , 'ZERO-G girl', 'q1_AJWZajEk?start=127&end=275'],
     [10, 3 , 'ZERO-G', 'xdJwG_9kF8s?start=0&end=48'],

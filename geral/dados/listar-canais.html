@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!---->
+<html lang="pt" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body id="corpo">
+    <p id="h1">oitenta</p>
+    <script type="module">
+        import {canais} from './dados.js'
+
+        var texto = ""
+        for(let pos in canais){
+            texto += pos + " - " + canais[pos][0] + " - " + canais[pos][1] + "<br>"
+        }
+        
+        document.querySelector('#h1').innerHTML = texto
+    </script>
+</body>
+
+</html>
