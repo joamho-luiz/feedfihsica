@@ -1,6 +1,7 @@
 import {tohpicos} from '../../geral/dados/dados.js'
 
-for(let posiccamho in tohpicos) {
+// for(let posiccamho in tohpicos) {
+for(var posiccamho = 0; posiccamho < 27; posiccamho++) {
     // Criação dos elementos   
     var tohpico = document.createElement("div")
     var tohpicoImagem = document.createElement("div")

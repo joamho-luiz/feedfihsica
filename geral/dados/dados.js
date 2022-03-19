@@ -33,7 +33,14 @@ export var tohpicos = [     // SUBTÓPICO    TÓPICO      COR
     ['Conservação de energia', 'Leis de Conservação', '#7a3b69'],
     ['Impulso e quantidade de movimento', 'Leis de Conservação', '#7a3b69'],
     ['Forças impulsivas e colisões', 'Leis de Conservação', '#7a3b69'],
-    ['Conservação da quantidade de movimento', 'Leis de Conservação', '#7a3b69']
+    ['Conservação da quantidade de movimento', 'Leis de Conservação', '#7a3b69'],
+
+    ['Física', '', '#c94277'],
+    ['Dinâmica', '', '#f06543'],
+    ['Cinemática', '', '#eac435'],
+    ['Gravitação Universal', '', '#5fad56'],
+    ['Estática', '', '#586994'],
+    ['Leis de Conservação', '', '#7a3b69']
 ]
 
 //  < + >  < + >  < + >  < + >  < + >  < + >  < + >
