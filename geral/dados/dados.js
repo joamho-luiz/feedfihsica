@@ -35,7 +35,7 @@ export var tohpicos = [     // SUBTÓPICO    TÓPICO      COR
     ['Forças impulsivas e colisões', 'Leis de Conservação', '#7a3b69'],
     ['Conservação da quantidade de movimento', 'Leis de Conservação', '#7a3b69'],
 
-    ['Física', '', '#c94277'],
+    ['Física Geral', '', '#c94277'],
     ['Dinâmica', '', '#f06543'],
     ['Cinemática', '', '#eac435'],
     ['Gravitação Universal', '', '#5fad56'],
@@ -76,7 +76,8 @@ export var canais = [     // NOME    ORIGEM      IMAGEM      ENDEREÇO
     ['manualdomundo', 'TikTok', 'manual-do-mundo.jpg', 'https://www.tiktok.com/@manualdomundo'],
     ['thephysicsgirl', 'TikTok', 'thephysicsgirl.jpeg', 'https://www.tiktok.com/@thephysicsgirl'],
     ['estudematematica', 'TikTok', 'estudematematica.jpeg', 'https://www.tiktok.com/@estudematematica'],
-    ['opedroloos', 'TikTok', 'opedroloos.jpeg', 'https://www.tiktok.com/@opedroloos']
+    ['opedroloos', 'TikTok', 'opedroloos.jpeg', 'https://www.tiktok.com/@opedroloos'],
+    ['Cana Aletório', 'YouTube', '', '']
 ]
 
 //  < + >  < + >  < + >  < + >  < + >  < + >  < + >
