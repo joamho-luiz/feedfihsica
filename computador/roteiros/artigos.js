@@ -2,7 +2,7 @@ import {tohpicos} from '../../geral/dados/dados.js'
 import {canais} from '../../geral/dados/dados.js'
 import {postes} from '../../geral/dados/dados.js'
 
-
+function gerar() {
 for (let posiccamho in postes) {
     // Criação dos elementos    
     var artigo = document.createElement('article')
@@ -70,10 +70,20 @@ for (let posiccamho in postes) {
 
     // Adição
     document.querySelector('#seccamho').appendChild(artigo)
+
+    var mensagemFinal = document.createElement('p')
+    mensagemFinal.innerHTML = 'Bom, pessoal, isso é tudo &#128532;, obrigado por chegar até o final. &#128521;'
+    mensagemFinal.style.textAlign = 'center'
+    mensagemFinal.style.margin = '40px auto'
+    document.querySelector('#seccamho').appendChild(mensagemFinal)
+}
 }
 
-var mensagemFinal = document.createElement('p')
-mensagemFinal.innerHTML = 'Bom, pessoal, isso é tudo &#128532;, obrigado por chegar até o final. &#128521;'
-mensagemFinal.style.textAlign = 'center'
-mensagemFinal.style.margin = '40px auto'
-document.querySelector('#seccamho').appendChild(mensagemFinal)
+var controle = true
+document.addEventListener('scroll', function(){
+    if (controle) {
+        gerar()
+        // alert(controle)
+        controle = false
+    }
+})
