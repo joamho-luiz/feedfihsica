@@ -90,6 +90,7 @@ div.textos p:first-child {
 div.textos p {
     margin: 10px 0 30px 15px;
     letter-spacing: 0.4px;
+    line-height: 24px;
 }
 div.textos img {
     height: 14px;
