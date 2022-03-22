@@ -52,6 +52,7 @@ article.artigo {
 } .artigo-descriccamho {
     line-height: 25px;
     width: 540px;   /* De acordo com o tamanho do vídeo*/
+    margin: 7px 0;
 }
 
 /* < : > < : > < : > < : > < : > < : > < : > < : > */
