@@ -4,6 +4,7 @@ import {canais} from '../../geral/dados/dados.js'
 import {postes} from '../../geral/dados/dados.js'
 
 var primeiro = true
+function gerar() {
 for (let posiccamho in postes) {
     // Criação dos elementos    
     var section = document.createElement('section')
@@ -87,3 +88,13 @@ for (let posiccamho in postes) {
     // Adição da seção
     document.querySelector('#bd').appendChild(section)
 }
+}
+
+var controle = true
+document.addEventListener('scroll', function(){
+    if (controle) {
+        gerar()
+        // alert(controle)
+        controle = false
+    }
+})
