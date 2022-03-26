@@ -71,12 +71,13 @@ for (let posiccamho in postes) {
     // Adição
     document.querySelector('#seccamho').appendChild(artigo)
 
-    var mensagemFinal = document.createElement('p')
+    
+}
+var mensagemFinal = document.createElement('p')
     mensagemFinal.innerHTML = 'Bom, pessoal, isso é tudo &#128532;, obrigado por chegar até o final. &#128521;'
     mensagemFinal.style.textAlign = 'center'
     mensagemFinal.style.margin = '40px auto'
     document.querySelector('#seccamho').appendChild(mensagemFinal)
-}
 }
 
 var controle = true
